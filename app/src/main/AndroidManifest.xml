@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.vector.resume">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.acty.ButtonActivity"
+            android:theme="@style/AppTheme.NoActionBar.Status">
+        </activity>
+        <activity android:name=".ui.acty.Weight50Activity">
+        </activity>
+        <activity
+            android:name=".ui.acty.AppBarLayoutActivity"
+            android:theme="@style/WhiteTheme">
+        </activity>
+        <activity android:name=".ui.acty.AppBarLayoutActivity2">
+        </activity>
+        <activity android:name=".ui.acty.CoordinatorLayoutActivity">
+        </activity>
+        <activity android:name=".ui.acty.CardViewActivity">
+        </activity>
+    </application>
+
+</manifest>

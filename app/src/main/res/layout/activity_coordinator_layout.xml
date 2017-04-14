@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#f78"
+            android:gravity="center"
+            android:minHeight="55dp"
+            android:text="我是标题"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10000dp"
+            android:text="10000dp\nsdffp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\n00dp\nsdffp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\n00dp\nsdffp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\n00dp\nsdffp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\nsp\ns"
+            android:textSize="20sp"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
